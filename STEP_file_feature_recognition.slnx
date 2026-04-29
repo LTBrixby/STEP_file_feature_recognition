@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="STEP_file_feature_recognition/STEP_file_feature_recognition.vcxproj" Id="23886cc8-3ba0-4f5b-b344-2ae4cde087a7" />
+</Solution>
