@@ -11,7 +11,7 @@
 
 
 
-class STEPFileParsing
+class Thread_Detection
 {
 public:
     static TopoDS_Shape readStep( std::string& path);

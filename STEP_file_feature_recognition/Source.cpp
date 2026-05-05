@@ -1,4 +1,4 @@
-#include "File_parsing.cpp"
+#include "Thread_Detection.cpp"
 #include <BRepAdaptor_Surface.hxx>
 #include <GeomAbs_SurfaceType.hxx>
 #include <STEPControl_Reader.hxx>
@@ -28,12 +28,12 @@ int main()
 			return -1;
 		}
 
-		TopoDS_Shape shape = STEPFileParsing::readStep(path);
+		TopoDS_Shape shape = Thread_Detection::readStep(path);
 
-		vector<STEPFileParsing::CylindricalFeature> features =
-			STEPFileParsing::findThreadCandidates(shape);
+		vector<Thread_Detection::CylindricalFeature> features =
+			Thread_Detection::findThreadCandidates(shape);
 
-		STEPFileParsing::printFeatures(features);
+		Thread_Detection::printFeatures(features);
 
 		std::filesystem::path stepPath(path);
 
@@ -41,7 +41,7 @@ int main()
 			stepPath.parent_path() /
 			("Thread_Report_" + stepPath.stem().string() + ".txt");
 
-		STEPFileParsing::printThreadSummary(features,outputPath.string());
+		Thread_Detection::printThreadSummary(features,outputPath.string());
 	}
 	catch (const exception& e)
 	{

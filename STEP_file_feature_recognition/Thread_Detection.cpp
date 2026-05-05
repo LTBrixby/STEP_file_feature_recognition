@@ -33,7 +33,7 @@
 
 using namespace std;
 
-class STEPFileParsing
+class Thread_Detection
 {
 public:
 
