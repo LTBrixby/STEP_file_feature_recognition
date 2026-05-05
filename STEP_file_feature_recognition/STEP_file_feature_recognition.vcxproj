@@ -128,17 +128,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Command_Line_Interface.cpp" />
     <ClCompile Include="File_Parsing.cpp" />
-    <ClCompile Include="Shape_Display.cpp" />
     <ClCompile Include="Source.cpp" />
-    <ClCompile Include="Thread_Recognition.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Command_Line_Interface.h" />
     <ClInclude Include="File_Parsing.h" />
-    <ClInclude Include="Shape_Display.h" />
-    <ClInclude Include="Thread_Recognition.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
