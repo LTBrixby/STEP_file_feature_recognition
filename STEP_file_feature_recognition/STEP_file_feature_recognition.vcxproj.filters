@@ -18,30 +18,12 @@
     <ClCompile Include="Source.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Thread_Recognition.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="File_Parsing.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Shape_Display.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Command_Line_Interface.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Thread_Recognition.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="File_Parsing.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Shape_Display.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Command_Line_Interface.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
